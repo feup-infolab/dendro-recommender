@@ -1,0 +1,109 @@
+@(title: String)(content: Html)
+
+<!DOCTYPE html>
+
+<html ng-app="dendroRecommenderApp">
+    <head>
+        <title>@title</title>
+
+        <!-- jQuery -->
+        <script src="@routes.Assets.at("bower_components/jquery/jquery.js")" type="text/javascript"></script>
+
+        <!-- favicon -->
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("public/images/favicon.png")">
+
+        <!-- Dependency stylesheets -->
+        <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
+        <link rel='stylesheet' href="@routes.Assets.at("bower_components/bootstrap/dist/css/bootstrap.min.css")" />
+        <link rel='stylesheet' href="@routes.Assets.at("bower_components/bootstrap/dist/css/bootstrap-theme.min.css")" />
+        <link rel='stylesheet' href="@routes.Assets.at("bower_components/bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css")" />
+        <link rel='stylesheet' href="@routes.Assets.at("bower_components/pnotify/jquery.pnotify.default.css")" />
+        <link rel='stylesheet' href="@routes.Assets.at("bower_components/font-awesome/css/font-awesome.min.css")" />
+        <link rel='stylesheet' href="@routes.Assets.at("bower_components/ladda/dist/ladda-themeless.min.css")" />
+
+        <!-- Own stylesheets -->
+        <link rel='stylesheet' href="@routes.Assets.at("stylesheets/simple-sidebar.css")" />
+        <link rel='stylesheet' href="@routes.Assets.at("stylesheets/animations.css")" />
+
+        <!--Code highlight stylesheets-->
+
+        <link rel="stylesheet" title="Monokai Sublime" href="@routes.Assets.at("bower_components/highlight/src/styles/solarized_dark.css")">
+
+        <!--pnotify-->
+        <script src="@routes.Assets.at("bower_components/pnotify/jquery.pnotify.min.js")" type="text/javascript"></script>
+        <!-- /pnotify -->
+
+        <!-- Dependency java scripts -->
+        <script src="@routes.Assets.at("bower_components/bootstrap/dist/js/bootstrap.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("bower_components/angularjs/angular.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("bower_components/angular-route/angular-route.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("bower_components/angular-routing/angular-routing.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("bower_components/angular-animate/angular-animate.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("bower_components/bootstrap-contextmenu/bootstrap-contextmenu.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("bower_components/bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("bower_components/underscore/underscore.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("bower_components/moment/moment.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("bower_components/highlight/build/highlight.pack.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("bower_components/ladda/dist/spin.min.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("bower_components/ladda/dist/ladda.min.js")" type="text/javascript"></script>
+
+        <!-- Own javascripts -->
+        <script src="@routes.Assets.at("javascripts/dendro-recommender/utils.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("app/js/app.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("app/js/controller.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("app/js/directives.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("app/js/filters.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("app/js/services.js")" type="text/javascript"></script>
+
+    </head>
+    <body>
+        <div id="wrapper">
+
+                <!-- Sidebar -->
+            <div id="sidebar-wrapper">
+                <ul class="sidebar-nav">
+                    <li class="sidebar-brand">
+                        <a href="#">
+                        Dendro<sup>&#946</sup> Rec <sup>MySQL</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#interactions">Interactions</a>
+                    </li>
+                    <li>
+                        <a href="#recommendations">Recommendations</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /#sidebar-wrapper -->
+
+            <!-- Page Content -->
+            <div id="page-content-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            @content
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /#page-content-wrapper -->
+
+        </div>
+        <!-- /#wrapper -->
+
+        <!-- Menu Toggle Script -->
+        <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+
+        });
+        </script>
+
+    </body>
+</html>
+

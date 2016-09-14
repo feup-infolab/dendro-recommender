@@ -1,0 +1,2036 @@
+[
+  {
+    "prefix": "dcterms",
+    "uri": "http://purl.org/dc/terms/",
+    "elements": {
+      "abstract": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "accessRights": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "accrualMethod": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "accrualPeriodicity": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "accrualPolicy": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "alternative": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "audience": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "available": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "bibliographicCitation": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "conformsTo": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "contributor": {
+        "type": 1,
+        "control": "url_box",
+        "locked_for_projects": true
+      },
+      "coverage": {
+        "type": 3,
+        "control": "map"
+      },
+      "created": {
+        "type": 8,
+        "control": "date_picker",
+        "api_readable": true,
+        "locked": true,
+        "audit": true
+      },
+      "creator": {
+        "type": 1,
+        "control": "url_box",
+        "locked_for_projects": true
+      },
+      "date": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "dateAccepted": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "dateCopyrighted": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "dateSubmitted": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "description": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "educationLevel": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "extent": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "format": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "identifier": {
+        "type": 3,
+        "control": "url_box"
+      },
+      "instructionalMethod": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "issued": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "language": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "license": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "mediator": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "medium": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "modified": {
+        "type": 8,
+        "control": "date_picker",
+        "locked": true,
+        "api_readable": true,
+        "audit": true
+      },
+      "provenance": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "publisher": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "references": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "relation": {
+        "type": 3,
+        "control": "url_box"
+      },
+      "replaces": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "requires": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "rights": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "rightsHolder": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "source": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "spatial": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "subject": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "tableOfContents": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "temporal": {
+        "type": 8,
+        "control": "input_box"
+      },
+      "type": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "title": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "hasVersion": {
+        "type": 1,
+        "control": "url_box",
+        "locked": true,
+        "private": true
+      },
+      "hasPart": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "isPartOf": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "hasFormat": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "isFormatOf": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "isReferencedBy": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "isReplacedBy": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "isRequiredBy": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "isVersionOf": {
+        "type": 3,
+        "control": "url_box"
+      },
+      "valid": {
+        "type": 3,
+        "control": "input_box"
+      }
+    },
+    "label": "Dublin Core terms",
+    "description": "Generic description. Creator, title, subject...",
+    "domain": "Generic",
+    "domain_specific": false
+  },
+  {
+    "prefix": "foaf",
+    "uri": "http://xmlns.com/foaf/0.1/",
+    "elements": {
+      "mbox": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "firstName": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "surname": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "account": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "accountName": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "accountServiceHomepage": {
+        "type": 1,
+        "control": "input_box"
+      },
+      "age": {
+        "type": 4,
+        "control": "input_box"
+      },
+      "aimChatID": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "based_near": {
+        "type": 3,
+        "control": "map"
+      },
+      "birthday": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "currentProject": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "depiction": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "depicts": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "dnaChecksum": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "familyName": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "focus": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "fundedBy": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "geekcode": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "gender": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "givenName": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "holdsAccount": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "homepage": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "icqChatID": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "img": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "interest": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "jabberID": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "knows": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "lastName": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "logo": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "made": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "maker": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "mbox_sha1sum": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "member": {
+        "type": 3,
+        "control": "url_box"
+      },
+      "membershipClass": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "msnChatID": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "name": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "nick": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "openid": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "page": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "pastProject": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "phone": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "plan": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "primaryTopic": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "publications": {
+        "type": 3,
+        "control": "url_box"
+      },
+      "schoolHomepage": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "sha1": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "skypeID": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "status": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "theme": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "tipjar": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "title": {
+        "type": 3,
+        "control": "input_box",
+        "backuppable": true,
+        "restorable": true
+      },
+      "topic": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "topic_interest": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "weblog": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "workInfoHomepage": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "workplaceHomepage": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "yahooChatID": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "family_name": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "givenname": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "isPrimaryTopicOf": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "myersBriggs": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "thumbnail": {
+        "type": 3,
+        "control": "input_box"
+      }
+    },
+    "label": "Friend of a friend",
+    "description": "For expressing people-related metadata. Mailbox, web page...",
+    "domain": "Generic",
+    "domain_specific": false
+  },
+  {
+    "prefix": "ddr",
+    "uri": "http://dendro.fe.up.pt/ontology/0.1/",
+    "private": true,
+    "elements": {
+      "handle": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "password": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "password_reset_token": {
+        "type": 3,
+        "control": "input_box",
+        "private": true,
+        "locked": true
+      },
+      "text_content": {
+        "type": 9,
+        "control": "markdown_box"
+      },
+      "username": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "fileExtension": {
+        "type": 3,
+        "control": "input_box",
+        "backuppable": true,
+        "restorable": true,
+        "locked": true
+      },
+      "lastHarvested": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "md5Checksum": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "sourceRepository": {
+        "type": 3,
+        "control": "url_box"
+      },
+      "rootFolder": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "checksum": {
+        "type": 3,
+        "backuppable": true,
+        "control": "input_box"
+      },
+      "isVersionOf": {
+        "type": 1,
+        "api_readable": true,
+        "audit": true,
+        "control": "url_box"
+      },
+      "versionCreator": {
+        "type": 1,
+        "api_readable": true,
+        "audit": true,
+        "control": "url_box"
+      },
+      "versionNumber": {
+        "type": 4,
+        "api_readable": true,
+        "audit": true,
+        "control": "input_box"
+      },
+      "changedDescriptor": {
+        "type": 2,
+        "control": "url_box"
+      },
+      "oldValue": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "newValue": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "changeType": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "pertainsTo": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "changeIndex": {
+        "type": 4,
+        "control": "input_box"
+      },
+      "deleted": {
+        "type": 6,
+        "backuppable": true,
+        "api_readable": true,
+        "control": "input_box"
+      },
+      "performedBy": {
+        "type": 1,
+        "api_readable": true,
+        "control": "url_box"
+      },
+      "interactionType": {
+        "type": 3,
+        "api_readable": true,
+        "control": "input_box"
+      },
+      "executedOver": {
+        "type": 1,
+        "api_readable": true,
+        "control": "url_box"
+      },
+      "originallyRecommendedFor": {
+        "type": 1,
+        "api_readable": true,
+        "control": "url_box"
+      },
+      "hasUsername": {
+        "type": 3,
+        "api_readable": true,
+        "control": "url_box"
+      },
+      "hasPlatform": {
+        "type": 1,
+        "api_readable": true,
+        "control": "url_box"
+      },
+      "hasExternalUri": {
+        "type": 1,
+        "api_readable": true,
+        "control": "url_box"
+      },
+      "hasSwordCollectionUri": {
+        "type": 3,
+        "api_readable": true,
+        "control": "url_box"
+      },
+      "hasSwordCollectionLabel": {
+        "type": 3,
+        "api_readable": true,
+        "control": "input_box"
+      },
+      "hasConsumerKey": {
+        "type": 3,
+        "api_readable": true,
+        "control": "input_box"
+      },
+      "hasConsumerSecret": {
+        "type": 3,
+        "api_readable": true,
+        "control": "input_box"
+      },
+      "hasAccessToken": {
+        "type": 3,
+        "api_readable": true,
+        "control": "input_box"
+      },
+      "hasAccessTokenSecret": {
+        "type": 3,
+        "api_readable": true,
+        "control": "input_box"
+      },
+      "generic": {
+        "type": 3,
+        "control": "input_box",
+        "api_readable": true
+      },
+      "rankingPosition": {
+        "type": 4,
+        "api_readable": true,
+        "control": "input_box"
+      },
+      "lastDescriptorRecommendationsList": {
+        "type": 9,
+        "control": "markdown_box"
+      },
+      "hasPrefix": {
+        "type": 3,
+        "api_readable": true,
+        "control": "input_box"
+      },
+      "hasResearchDomain": {
+        "type": 3,
+        "api_readable": true,
+        "control": "input_box"
+      },
+      "metadataQuality": {
+        "type": 4,
+        "api_readable": true,
+        "control": "input_box"
+      }
+    },
+    "label": "Dendro internal ontology",
+    "description": "Designed to represent internal system information important to Dendro",
+    "domain": "Generic",
+    "domain_specific": false
+  },
+  {
+    "prefix": "rdf",
+    "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "private": true,
+    "elements": {
+      "first": {
+        "type": 1,
+        "control": "input_box"
+      },
+      "object": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "predicate": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "rest": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "subject": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "type": {
+        "type": 7,
+        "locked": true,
+        "api_readable": true,
+        "control": "input_box"
+      },
+      "value": {
+        "type": 3,
+        "control": "input_box"
+      }
+    },
+    "label": "Resource Description Framework",
+    "description": "Low-level technical ontology. It is the building block of all others.",
+    "domain": "Low-level, System",
+    "domain_specific": false
+  },
+  {
+    "prefix": "nie",
+    "uri": "http://www.semanticdesktop.org/ontologies/2007/01/19/nie#",
+    "private": true,
+    "elements": {
+      "byteSize": {
+        "type": 4,
+        "control": "input_box"
+      },
+      "characterSet": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "comment": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "contentCreated": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "contentLastModified": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "contentSize": {
+        "type": 4,
+        "control": "input_box"
+      },
+      "copyright": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "created": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "dataSource": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "depends": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "description": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "disclaimer": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "generator": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "generatorOption": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "hasLogicalPart": {
+        "type": 1,
+        "control": "url_box",
+        "backuppable": true,
+        "locked": true
+      },
+      "hasPart": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "identifier": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "informationElementDate": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "interpretedAs": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "isLogicalPartOf": {
+        "control": "url_box",
+        "type": 1,
+        "backuppable": true,
+        "locked": true
+      },
+      "isPartOf": {
+        "control": "url_box",
+        "type": 1,
+        "backuppable": true,
+        "locked": true
+      },
+      "isStoredAs": {
+        "control": "input_box",
+        "type": 3
+      },
+      "keyword": {
+        "control": "input_box",
+        "type": 3
+      },
+      "language": {
+        "control": "input_box",
+        "type": 3
+      },
+      "lastRefreshed": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "legal": {
+        "control": "input_box",
+        "type": 3
+      },
+      "license": {
+        "control": "markdown_box",
+        "type": 3
+      },
+      "licenseType": {
+        "control": "input_box",
+        "type": 3
+      },
+      "links": {
+        "control": "url_box",
+        "type": 1
+      },
+      "mimeType": {
+        "control": "input_box",
+        "type": 3
+      },
+      "plainTextContent": {
+        "control": "markdown_box",
+        "type": 9
+      },
+      "relatedTo": {
+        "control": "url_box",
+        "type": 1
+      },
+      "rootElementOf": {
+        "control": "url_box",
+        "type": 1
+      },
+      "subject": {
+        "control": "input_box",
+        "type": 3
+      },
+      "title": {
+        "type": 8,
+        "control": "input_box",
+        "private": true,
+        "locked": true
+      },
+      "version": {
+        "control": "input_box",
+        "type": 1,
+        "locked": true
+      },
+      "lastModified": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "url": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "contentModified": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "coreGraph": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "htmlContent": {
+        "type": 9,
+        "control": "markdown_box"
+      },
+      "modified": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "sourceMode": {
+        "type": 3,
+        "control": "input_box"
+      }
+    },
+    "label": "Nepomuk Information Element",
+    "description": "Ontology for representing files and folders. Information Elements",
+    "domain": "Low-level, System",
+    "domain_specific": false
+  },
+  {
+    "prefix": "nfo",
+    "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#",
+    "private": true,
+    "elements": {
+      "aspectRatio": {
+        "control": "input_box",
+        "type": 3
+      },
+      "averageBitrate": {
+        "control": "input_box",
+        "type": 4
+      },
+      "belongsToContainer": {
+        "control": "url_box",
+        "type": 1
+      },
+      "bitDepth": {
+        "control": "input_box",
+        "type": 4
+      },
+      "bitsPerSample": {
+        "control": "input_box",
+        "type": 4
+      },
+      "bookmarks": {
+        "control": "url_box",
+        "type": 1
+      },
+      "channels": {
+        "control": "input_box",
+        "type": 4
+      },
+      "characterCount": {
+        "control": "input_box",
+        "type": 4
+      },
+      "codec": {
+        "control": "input_box",
+        "type": 3
+      },
+      "commentCharacterCount": {
+        "control": "input_box",
+        "type": 4
+      },
+      "compressionType": {
+        "control": "input_box",
+        "type": 3
+      },
+      "conflicts": {
+        "control": "url_box",
+        "type": 1
+      },
+      "containsBookmark": {
+        "control": "url_box",
+        "type": 1
+      },
+      "containsBookmarkFolder": {
+        "control": "url_box",
+        "type": 1
+      },
+      "count": {
+        "control": "input_box",
+        "type": 4
+      },
+      "definesClass": {
+        "control": "input_box",
+        "type": 1
+      },
+      "definesFunction": {
+        "control": "input_box",
+        "type": 1
+      },
+      "definesGlobalVariable": {
+        "control": "input_box",
+        "type": 1
+      },
+      "deletionDate": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "duration": {
+        "control": "input_box",
+        "type": 3
+      },
+      "encoding": {
+        "control": "input_box",
+        "type": 3
+      },
+      "fileCreated": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "fileLastAccessed": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "fileLastModified": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "fileName": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "fileOwner": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "fileSize": {
+        "type": 4,
+        "control": "input_box"
+      },
+      "fileUrl": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "fontFamily": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "foundry": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "frameCount": {
+        "type": 4,
+        "control": "input_box"
+      },
+      "frameRate": {
+        "type": 4,
+        "control": "input_box"
+      },
+      "frontChannels": {
+        "type": 4,
+        "control": "input_box"
+      },
+      "hasHash": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "hasMediaFileListEntry": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "hasMediaStream": {
+        "type": 1,
+        "control": "input_box"
+      },
+      "hashAlgorithm": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "hashValue": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "height": {
+        "type": 4,
+        "control": "input_box"
+      },
+      "horizontalResolution": {
+        "type": 4,
+        "control": "input_box"
+      },
+      "interlaceMode": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "isPassswordProtected": {
+        "type": 6,
+        "control": "input_box"
+      },
+      "lfeChannels": {
+        "type": 4,
+        "control": "input_box"
+      },
+      "lineCount": {
+        "type": 4,
+        "control": "input_box"
+      },
+      "losslessCompressionType": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "lossyCompressionType": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "originalLocation": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "pageCount": {
+        "type": 4,
+        "control": "input_box"
+      },
+      "permissions": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "programmingLanguage": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "rate": {
+        "type": 4,
+        "control": "input_box"
+      },
+      "rearChannels": {
+        "type": 4,
+        "control": "input_box"
+      },
+      "sampleCount": {
+        "type": 4,
+        "control": "input_box"
+      },
+      "sampleRate": {
+        "type": 4,
+        "control": "input_box"
+      },
+      "sideChannels": {
+        "type": 4,
+        "control": "input_box"
+      },
+      "supercedes": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "uncompressedSize": {
+        "type": 4,
+        "control": "input_box"
+      },
+      "verticalResolution": {
+        "type": 4,
+        "control": "input_box"
+      },
+      "width": {
+        "type": 4,
+        "control": "input_box"
+      },
+      "wordCount": {
+        "type": 4,
+        "control": "input_box"
+      },
+      "bitrateType": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "characterPosition": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "colorCount": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "colorDepth": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "containsPlacemark": {
+        "type": 3,
+        "control": "map"
+      },
+      "depiction": {
+        "type": 1,
+        "control": "input_box"
+      },
+      "depicts": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "encryptionStatus": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "filesystemType": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "freeSpace": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "isPasswordProtected": {
+        "type": 6,
+        "control": "input_box"
+      },
+      "occupiedSpace": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "pageNumber": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "paletteSize": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "streamPosition": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "totalSpace": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "uuid": {
+        "type": 3,
+        "control": "input_box"
+      }
+    },
+    "label": "Nepomuk File Ontology",
+    "description": "Ontology for representing files and folders. Files and Folders.",
+    "domain": "Low-level, System",
+    "domain_specific": false
+  },
+  {
+    "prefix": "research",
+    "uri": "http://dendro.fe.up.pt/ontology/research/",
+    "elements": {
+      "instrumentation": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "measurement": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "method": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "sample": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "software": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "hasRegex": {
+        "type": 3,
+        "control": "input_box",
+        "private": true
+      },
+      "hasAlternative": {
+        "type": 3,
+        "control": "input_box",
+        "private": true
+      }
+    },
+    "label": "Dendro research",
+    "description": "Experimental research-related metadata. Instrumentation, method...",
+    "domain": "Generic",
+    "domain_specific": true
+  },
+  {
+    "prefix": "dcb",
+    "uri": "http://dendro.fe.up.pt/ontology/dcb/",
+    "elements": {
+      "specimen": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "specimenProperties": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "specimenProperty": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "initialCrackLenght": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "specimenHeight": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "specimenLength": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "specimenWidth": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "instrumentName": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "method": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "moisture": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "temperature": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "testVelocity": {
+        "type": 3,
+        "control": "input_box"
+      }
+    },
+    "label": "Double Cantilever Beam",
+    "description": "Fracture mechanics experiments. Initial crack length, Material type...",
+    "domain": "Mechanical Engineering",
+    "domain_specific": true
+  },
+  {
+    "prefix": "achem",
+    "uri": "http://dendro.fe.up.pt/ontology/achem/",
+    "elements": {
+      "compound": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "sampleCount": {
+        "type": 3,
+        "control": "input_box"
+      }
+    },
+    "label": "Pollutant analysis",
+    "description": "Analytical Chemistry experimental studies... Analysed substances, Sample count...",
+    "domain": "Analytical Chemistry",
+    "domain_specific": true
+  },
+  {
+    "prefix": "bdv",
+    "uri": "http://dendro.fe.up.pt/ontology/BIODIV/0.1#",
+    "elements": {
+      "identifierCode": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "conformityDate": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "conformityDateType": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "conformityDegree": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "conformitySpecification": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "conformitySpecificationTitle": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "coupledResource": {
+        "type": 1,
+        "control": "url_box"
+      },
+      "dateOfCreation": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "dateOfLastRevision": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "dateOfPublication": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "diagnosticAndUsability": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "distributionFormatName": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "equivalentScale": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "geographicBoundBox": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "geographicExtentCode": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "identifierNamespace": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "keywordINSPIRE": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "keywordValue": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "lineage": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "linkage": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "metadataDate": {
+        "type": 3,
+        "control": "date_picker"
+      },
+      "metadataLanguage": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "metadataPointOfContact": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "metadataPointOfContactEmail": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "organizationEmail": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "organizationName": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "originatingControlledVocabulary": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "originatingControlledVocabularyDateType": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "originatingControlledVocabularyReferenceDate": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "originatingControlledVocabularyTitle": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "projectName": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "referenceSystemAuthority": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "referenceSystemIdentifier": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "referenceSystemIdentifierCode": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "referenceSystemIdentifierCodeSpace": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "referenceSystemCode": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "resolutionDistance": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "resourceAbstract": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "resourceLanguage": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "resourceTitle": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "responsibleParty": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "responsiblePartyRole": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "spatialRepresentation": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "spatialResolution": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "spatialResolutionUnitMeasure": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "spatialServiceDataType": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "temporalExtentEndingDate": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "temporalExtentStartingDate": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "uniqueResourceIdentifier": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "version": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "topicCategory": {
+        "type": 1,
+        "control": "input_box"
+      },
+      "identifierNameSpace": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "referencesSystemCode": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "resourceLocator": {
+        "type": 3,
+        "control": "input_box"
+      }
+    },
+    "label": "Biodiversity evolution studies",
+    "description": "For INSPIRE-represented observational data for biodiversity. Reference system identifier, Metadata point of contact...",
+    "domain": "Biodiversity, Georeferencing",
+    "domain_specific": true
+  },
+  {
+    "prefix": "biocn",
+    "uri": "http://dendro.fe.up.pt/ontology/BioOc#",
+    "elements": {
+      "beginDate": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "commonName": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "endDate": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "geographicDescription": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "lifeStage": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "individualCount": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "individualsPerSpecies": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "observedWeight": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "speciesCount": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "sampleDestination": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "sampleIdentification": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "samplingDescription": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "samplingEffort": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "samplingPeriodicity": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "scientificName": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "sex": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "singleDateTime": {
+        "type": 3,
+        "control": "input_box"
+      }
+    },
+    "label": "Biological Oceanography",
+    "description": "Biological Oceanography observational and experimental studies...Life stage, Species count, individualPerSpecie...",
+    "domain": "Biological Oceanography",
+    "domain_specific": true
+  },
+  {
+    "prefix": "grav",
+    "uri": "http://dendro.fe.up.pt/ontology/gravimetry#",
+    "elements": {
+      "altitudeDatumName": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "altitudeDistanceUnits": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "altitudeSystemDefinition": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "beginningTime": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "endingTime": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "geographicBoundingBox": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "altitudeResolution": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "resolutionDistance": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "temporalExtentEndingDate": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "temporalExtentStartingDate": {
+        "type": 8,
+        "control": "date_picker"
+      },
+      "altitudeEncodingMethods": {
+        "type": 3,
+        "control": "markdown_box"
+      }
+    },
+    "label": "Gravimetry",
+    "description": "Gravimetry observational and experimental studies...Altitude resolution; Beginning time...",
+    "domain": "Gravimetry",
+    "domain_specific": true
+  },
+  {
+    "prefix": "hdg",
+    "uri": "http://dendro.fe.up.pt/ontology/hydrogen#",
+    "elements": {
+      "additive": {
+        "type": 3,
+        "control": "combo_box",
+        "hasAlternative": [
+          "CMC",
+          "SDS"
+        ]
+      },
+      "catalyst": {
+        "type": 3,
+        "control": "combo_box",
+        "hasAlternative": [
+          "Co-B",
+          "Co-B/Ni",
+          "Co-Mn-B",
+          "Ni-Ru",
+          "Pt/C"
+        ]
+      },
+      "gravimetricCapacity": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "hydrationFactor": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "hydrogenGenerationRate": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "hydrolysis": {
+        "type": 3,
+        "control": "combo_box",
+        "hasAlternative": [
+          "Acid hydrolysis",
+          "Alkali-free hydrolysis",
+          "Classic hydrolysis"
+        ]
+      },
+      "numberOfReutilization": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "reactorType": {
+        "type": 3,
+        "control": "combo_box",
+        "hasAlternative": [
+          "EggR - ovoid  mini reactor",
+          "LR - large reactor",
+          "MRc - conical medium reactor",
+          "MRf - flat medium reactor\n",
+          "SRc - conical small reactor\n",
+          "SRf - flat small reactor"
+        ]
+      },
+      "reagent": {
+        "type": 3,
+        "control": "combo_box",
+        "hasAlternative": [
+          "KBH4",
+          "LiAlH4",
+          "LiBH4",
+          "NH3BH3",
+          "NaBH4"
+        ]
+      }
+    },
+    "label": "Hydrogen Generation",
+    "description": "Hydrogen Generation experimental studies...Catalyst; Reagent...",
+    "domain": "Hydrogen Generation",
+    "domain_specific": true
+  },
+  {
+    "prefix": "tsim",
+    "uri": "http://dendro.fe.up.pt/ontology/trafficSim#",
+    "elements": {
+      "aerodynamicDragCoefficient": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "airDensity": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "controllerEfficiency": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "drivingCycle": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "gearRatio": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "gravitationalAcceleration": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "roadSurfaceCoefficient": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "tireRadius": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "vehicle": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "vehicleMass": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "vehicleModel": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "vehicleFrontalArea": {
+        "type": 3,
+        "control": "input_box"
+      }
+    },
+    "label": "Traffic Simulation",
+    "description": "Traffic Simulation studies...Driving cycle; Vehicle Mass...",
+    "domain": "Traffic Simulation",
+    "domain_specific": true
+  },
+  {
+    "prefix": "cep",
+    "uri": "http://dendro.fe.up.pt/ontology/cep/",
+    "elements": {
+      "applicationDomain": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "boardType": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "convexNonConvex": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "coordinateOrigin": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "gridType": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "hardwareConfiguration": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "heuristics": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "inputProperty": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "resultProperty": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "solver": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "solverConfiguration": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "typologyWascher": {
+        "type": 3,
+        "control": "input_box"
+      }
+    },
+    "label": "Cutting and Packing",
+    "description": "Cutting and packing optimization strategies...Solver configuration, Optimization strategy, Heuristics used...",
+    "domain": "Algorithms and optimization",
+    "domain_specific": true
+  },
+  {
+    "prefix": "social",
+    "uri": "http://dendro.fe.up.pt/ontology/socialStudies#",
+    "elements": {
+      "dataCollectionDate": {
+        "type": 3,
+        "control": "date_picker"
+      },
+      "dataCollectionMethodology": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "dataCollectionSoftware": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "dataSource": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "externalAid": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "kindOfData": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "methodology": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "sampleSize": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "samplingProcedure": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "universe": {
+        "type": 3,
+        "control": "input_box"
+      }
+    },
+    "label": "Social Studies",
+    "description": "Social and Behavioural Studies... Methodology, Sample procedure, Kind of data...",
+    "domain": "Social and Behavioural Science",
+    "domain_specific": true
+  },
+  {
+    "prefix": "cfd",
+    "uri": "http://dendro.fe.up.pt/ontology/cfd#",
+    "elements": {
+      "analyticalSolution": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "boundaryCondition": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "computationalDomain": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "convergenceCriteria": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "flowCase": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "initialCondition": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "mathematicalModel": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "numericalGrid": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "numericalMethod": {
+        "type": 3,
+        "control": "markdown_box"
+      },
+      "surfaceRoughness": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "temporalDiscretization": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "totalSimulatedTime": {
+        "type": 3,
+        "control": "input_box"
+      },
+      "underrelaxation": {
+        "type": 3,
+        "control": "input_box"
+      }
+    },
+    "label": "Fluid Dynamics",
+    "description": "Computational Fluid Dynamics... Flow Case, Initial Condition, Temporal Discretization...",
+    "domain": "Computational Fluid Dynamics",
+    "domain_specific": true
+  }
+]

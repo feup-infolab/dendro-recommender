@@ -1,0 +1,25 @@
+public void addWeightByValue(int category, String featureKey, Double value)
+    {
+        weights.put(featureKey, value);
+        accountedWeights.get(category).put(featureKey, value);
+    }
+
+    public void addWeightAsAFunctionOfAllOthers(int category, String featureKey, Double multiplier)
+    {
+        double sum = getCurrentWeightSum();
+        weights.put(featureKey, sum * multiplier);
+        accountedWeights.get(category).put(featureKey, sum * multiplier);
+    }
+
+    public double getCurrentWeightSum()
+    {
+        return sumAllWeights(accountedWeights);
+    }
+
+    public void printWeights()
+    {
+        for(HashMap.Entry pair : accountedWeights.entrySet())
+        {
+            System.out.println("Feature " + pair.getKey() + " has weight with value " + pair.getValue() + " .");
+        }
+    }

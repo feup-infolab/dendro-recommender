@@ -1,0 +1,14 @@
+<h1>Interactions <small>See interactions recorded in the system</small></h1>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div ng-repeat="interaction in interactions" class="row">
+            <div class="col-lg-4">
+                {{interaction.uri}}
+            </div>
+            <div class="col-lg-4">
+                {{interaction.performedBy}}
+            </div>
+        </div>
+    </div>
+</div>

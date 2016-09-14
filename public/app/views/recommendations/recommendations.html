@@ -1,0 +1,128 @@
+<div class="page-header">
+    <h1>Recommendations <small>Get recommendations for an user</small></h1>
+</div>
+
+<!-- set up the modal to start hidden and fade in and out -->
+<div ng-controller="recommendationsCtrl">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label for="userUri_input">What is your user?</label>
+                        <input type="text" class="form-control" ng-model="userUri" id="userUri_input">
+                        <p class="help-block">Input the URI of a Dendro user.</p>
+                        <label for="resourceUri_input">Recommend for which file / folder?</label>
+                        <input type="text" class="form-control" ng-model="resourceUri" id="resourceUri_input">
+                        <p class="help-block">Input the URI of a Dendro file or folder.</p>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-1 col-lg-offset-1">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label for="number_of_recommendations_input">How many?</label>
+                        <input type="text" class="form-control" ng-model="number_or_recommendations" id="number_of_recommendations_input">
+                        <p class="help-block">Number of recommendations to fetch.</p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="btn-group pull-right">
+                    <button id="get_recommendations_button"
+                            type=button"
+                            ng-click="get_recommendations()"
+                            class="btn btn-primary"><i class="fa fa-heart"></i>Go!</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label for="descriptor_filter_input">Any filter?</label>
+                        <input type="text" class="form-control" ng-model="descriptor_filter" id="descriptor_filter_input">
+                        <p class="help-block">all, favorites or hidden</p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-lg-2 col-lg-offset-1">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label for="page_input">Page number</label>
+                        <input type="text" class="form-control" ng-model="page" id="page_input">
+                        <p class="help-block">page number, my son</p>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-2 col-lg-offset-1">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label for="page_size_input">Page Size</label>
+                        <input type="text" class="form-control" ng-model="page_size" id="page_size_input">
+                        <p class="help-block">page size, my son</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row" ng-show="recommendations != null">
+            <div class="col-lg-11">
+                <h4>Recommendations</h4>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12" ng-show="recommendations != null && recommendations.length == 0">
+                <span class="label-info">No recommendations returned.</span>
+            </div>
+
+            <div class="col-lg-11" ng-show="recommendations != null && recommendations.length > 0">
+                    <table class="table table-striped">
+                        <tr>
+                            <th>
+
+                            </th>
+                            <th>
+                                Score
+                            </th>
+                            <th>
+                                URI
+                            </th>
+                        </tr>
+                        <tr ng-repeat="recommendation in recommendations">
+                            <td>
+                                {{$index}}
+                            </td>
+                            <td>
+                                {{recommendation.score}}
+                            </td>
+                            <td>
+                                {{recommendation.uri}}
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12" ng-show="recommendations != null && recommendations.length == 0">
+                <span class="label-info">No recommendations returned.</span>
+            </div>
+
+            <div class="col-lg-11" ng-show="recommendations != null && recommendations.length > 0">
+                <div class="row" ng-repeat="recommendation in recommendations">
+                    <div class="col-lg-11" >
+                        <json class="javascript">
+                            {{recommendation}}
+                        </json>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- /.modal -->
+
+

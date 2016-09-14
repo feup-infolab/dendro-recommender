@@ -1,0 +1,66 @@
+.explorer {
+  min-width: 10%;
+  float: top left;
+  vertical-align: top;
+  font-size: 10px;
+}
+.metadata-panel {
+  vertical-align: top;
+  min-width: 80%;
+}
+.suggestions-panel {
+  width: 20%;
+  text-align: center;
+  vertical-align: top;
+  position: relative;
+}
+.explorer-table {
+  -ms-word-break: break-all;
+  word-break: break-all;
+/* Non standard for webkit */
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+.explorer-table h4 {
+  text-align: left;
+}
+.explorer-table td {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.spacer {
+  margin-top: 10px;
+/* define margin as you see fit */
+}
+.navbar-spacer {
+  margin-top: 20px;
+/* define margin as you see fit */
+}
+.changelog-table {
+  table-layout: fixed;
+  word-wrap: break-word;
+  width: 100%;
+}
+.table-centertext {
+  text-align: center;
+  vertical-align: middle;
+}
+.just_added {
+  color: #228b22;
+  font-weight: bold;
+}
+.just_deleted {
+  color: #cd5c5c;
+  text-decoration-style: line-through;
+  font-weight: bold;
+}
+.just_inherited {
+  color: #428bca;
+  font-weight: bold;
+}
+.label.just_added {
+  color: #428bca;
+}

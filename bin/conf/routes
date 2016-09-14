@@ -1,0 +1,19 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET        /                                                         controllers.Application.index()
+
+#Interactions
+GET        /interactions                                             controllers.Interactions.all()
+PUT        /interactions/new                                        controllers.Interactions.register()
+
+#Recommendations
+
+GET        /recommendations/user/:userUri                            controllers.Recommendations.user(userUri: String)
+GET        /recommendations/project/:projectUri                      controllers.Recommendations.project(projectUri: String)
+GET        /recommendations/project/:projectUri/user/:userUri        controllers.Recommendations.projectAndUser(projectUri: String, userUri: String)
+
+# Map static resources from the /public folder to the /assets URL path
+GET        /assets/*file                                             controllers.Assets.at(path="/public", file)
